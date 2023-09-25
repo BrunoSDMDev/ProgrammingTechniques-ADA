@@ -1,4 +1,4 @@
-package aula4;
+package Aula4;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,6 +21,8 @@ public class Intro {
     }
 
     private static void getStream(List<Transaction> transactions) {
-        System.out.println("Stream: " + Arrays.toString(transactions.stream().map(Transaction::getId).toArray()));
+        System.out.println("Stream: " + Arrays.toString(
+                transactions.stream().map(Transaction::getId).toArray()));
     }
 }
+

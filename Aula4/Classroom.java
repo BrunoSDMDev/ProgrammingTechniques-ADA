@@ -1,12 +1,4 @@
-package aula4;
-
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
-import java.util.function.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package Aula4;
 
 public class Classroom {
 

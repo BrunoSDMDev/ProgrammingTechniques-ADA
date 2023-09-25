@@ -1,4 +1,4 @@
-package main.java.io.ada.mbnakaya.aula2;
+package Aula2;
 
 import javax.sound.midi.Soundbank;
 import java.text.SimpleDateFormat;

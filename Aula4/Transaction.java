@@ -1,9 +1,8 @@
-package aula4;
+package Aula4;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Transaction {
 

@@ -1,4 +1,4 @@
-package io.ada.mbnakaya.aula3;
+package Aula3;
 
 import java.util.ArrayList;
 import java.util.Arrays;

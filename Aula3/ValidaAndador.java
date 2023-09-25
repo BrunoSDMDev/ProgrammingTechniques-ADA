@@ -1,4 +1,4 @@
-package io.ada.mbnakaya.aula3;
+package Aula3;
 
 public class ValidaAndador implements Validador {
     @Override
