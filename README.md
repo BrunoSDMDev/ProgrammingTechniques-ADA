@@ -11,6 +11,11 @@
 <p align="justify">
 - Exercícios e dinâmicas realizadas ao longo do módulo Técnicas de Programação, durante o curso de JAVA da ADA, através do Santander Coders 2023. <br>
 - Repositório criado com base no repositório do professor <a href="https://github.com/mbnakaya/ada-t1002-jv-3"> Matheus Nakaya </a> para fins de estudo e prática.
+<hr>
+
+<Strong> 1ª Aula ➞ <em> Java Time </em> </Strong> <br>
+<Strong> 2ª Aula ➞ <em> Interfaces Funcionais </em> </Strong>
+
 
 ## Ferramentas utilizadas
 [![My Skills](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
