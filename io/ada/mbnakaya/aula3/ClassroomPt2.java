@@ -11,7 +11,9 @@ public class ClassroomPt2 {
     public static void main(String[] args) {
 
         /*
+                      ------- Consumer -------
          * Recebe um argumento de qualquer tipo e não retorna nada (void)
+         * Diferente do Predicate que recebe um objeto e retorna um booleano
          *
          * Consumer<T> ==> void accept(T)
          */
@@ -20,6 +22,7 @@ public class ClassroomPt2 {
 //        new ArrayList<>().forEach();  Utiliza o consumer como parâmetro
 
         /*
+                      -------- Supplier ---------
          * Não recebe nenhum argumento e retorna um valor do tipo indicado
          *
          * Supplier<T> ==> T get()
@@ -28,6 +31,7 @@ public class ClassroomPt2 {
         System.out.println(supplier.get());
 
         /*
+                    --------- Comparator ---------
          * Recebe dois argumentos e permite uma expressão (muito utilizado para comparar elementos afim de ordená-los)
          * Retorna negatvo se x < y
          * Retorna positivo se x > y
@@ -45,6 +49,7 @@ public class ClassroomPt2 {
         System.out.println("Depois: " + Arrays.toString(inteiros));
 
         /*
+                      -------- Function ----------
          * Recebe um argumento de um tipo e retorna outro tipo. Muito utilizado para transformação e conversões.
          *
          * Function<T,R> ==> R apply(T)
@@ -56,6 +61,7 @@ public class ClassroomPt2 {
         System.out.println(biFunction.apply(10, 3));
 
         /*
+                    -------- Unary Operator ----------
          * Recebe um argumento de um tipo e retorna o mesmo tipo, de forma análoga ao Function.
          *
          * UnaryOperator<T> ==> T apply(T)
