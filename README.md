@@ -15,6 +15,8 @@
 
 <Strong> 1ª Aula ➞ <em> Java Time </em> </Strong> <br>
 <Strong> 2ª Aula ➞ <em> Interfaces Funcionais </em> </Strong>
+<Strong> 3ª Aula ➞ <em> Streams </em> </Strong>
+<Strong> 4ª Aula ➞ <em> IO / NIO </em> </Strong>
 
 
 ## Ferramentas utilizadas
