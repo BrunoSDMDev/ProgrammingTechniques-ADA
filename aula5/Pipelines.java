@@ -10,5 +10,9 @@ public class Pipelines {
         Stream<Double> integerStream = Stream.generate(Math::random);
 
         // Filtre os números pares e positivos, ordenando e limitando a 10 elementos e, por fim, imprimindo o resultado
+
+        integerStream.limit(100).map(x -> x.intValue()).filter(y -> (y % 2 == 0) && (y > 0)).forEach(System.out::println);
+//        integerStream.filter (num -> num > 0 && num % 2 == 0).sorted().limit(10).forEach(System.out::println);
+
     }
 }
