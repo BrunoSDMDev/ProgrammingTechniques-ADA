@@ -16,8 +16,15 @@ public class PrimitiveStream {
 
         // Transformação de tipos
         // mapToInt(), mapToLong(), mapToDouble()
+//        intStream.mapToLong(x -> (long) x);
+        longStream.mapToDouble(x -> (double) x);
+        doubleStream.mapToInt(x -> (int) x);
+
 
         // Estatisticas de streams
         // summaryStatistics() ==> devolve um consumer para facilitar certas operações
+        System.out.println(intStream.summaryStatistics().getAverage());
+
+
     }
 }
