@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 public class IO {
 
@@ -46,9 +47,21 @@ public class IO {
 
         // DESAFIO 1: Imprime se existir (utilizando interface funcional)
         Path desafio1 = Path.of("E:\\JAVA\\Tecnicas-Programacao\\FunctionalProgramming-ADA\\ProgrammingTechniques-ADA\\resources\\test.txt");
-        desafio1.toFile().exists();
-        Predicate<File> predicate = x -> x.exists();
-        System.out.println(predicate.test(desafio1.toFile()));
+//        desafio1.toFile().exists();
+//        Predicate<File> predicate = x -> x.exists();
+//        System.out.println(predicate.test(desafio1.toFile()));
+
+        // forma 1
+        if (desafio1.toFile().exists()) System.out.println(desafio1);
+
+        // forma 2
+        Stream.of(desafio1.toFile()).filter((File::exists)).forEach(System.out::println);
+
+        // forma 3
+        Stream.of(desafio1.toFile()).filter(file -> file.exists()).forEach( file -> System.out.println(file));
+
+
+
 
         // subpath(int beginIndex, int endIndex)
 
