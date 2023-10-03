@@ -8,7 +8,7 @@ public class AtomicV2 {
 
     public static void main(String[] args) {
         final int TASKS = 3;
-        var wallet = new Wallet();
+        var wallet = new WalletV2();
         ExecutorService service = Executors.newFixedThreadPool(TASKS);
 
         for (int i = 0; i < TASKS; i++) {
@@ -24,7 +24,7 @@ public class AtomicV2 {
 
 class WalletV2 {
     private String currency;
-    private AtomicLong balance;
+    private AtomicLong balance; // Dados atômicos garantem uma maior consistência
 
     public WalletV2() {
         this.currency = "BRL";
